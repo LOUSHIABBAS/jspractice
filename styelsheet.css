@@ -1,0 +1,39 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    margin-top: 400px;
+}
+
+.section {
+flex: 1;
+width: 100%;
+}
+
+.top {
+    background-color: aqua;
+}
+
+.middle {
+    background-color: brown;
+}
+
+.bottom {
+    background-color: chartreuse;
+}
